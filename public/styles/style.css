@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: monospace;
+}
+
+.main-page {
+    background: url(../images/spotify-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+form h1 {
+    color: white;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+form{
+    padding: 3em;
+    background: #19141482;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+form input {
+    width: 80%;
+    margin-bottom: 1em;
+    padding: 1em;
+    outline: none;
+}
+
+form button {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+}
+
+.data-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.data-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.data-card h2 {
+    font-size: 1.1em;
+    color: #191414;
+}
+
+.data-card img {
+    width:250px;
+    height:250px;
+    object-fit:scale-down;
+}
+
+.btn {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+.heading{
+    margin: 0 0 2em;
+    padding: 1em 0;
+    background: #1db954;
+    text-align: center;
+    color: white;
+}
+
+.tracks-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 8em;
+    color: #191414;
+}
+
+.tracks-section audio {
+    width: 40%;
+    outline: none;
+}
